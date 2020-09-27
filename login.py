@@ -3,7 +3,7 @@ from tkinter import messagebox
 class Login:
     def __init__(self,root):
         self.root=root
-        self.root.title("FILE BASED RECORD SYSTEM")
+        self.root.title("FILE BASED RECORDS SYSTEM")
         self.root.geometry("1560x800+0+0")
         bg_color="#074463"
 
@@ -46,7 +46,7 @@ class Login:
         self.password.set("")
 
     def exit_fun(self):
-        option=messagebox.askyesno("Exit","Do you really want to exit?")
+        option=messagebox.askyesno("Exit","Do you want to exit?")
         if option>0:
             self.root.destroy()
         else:
