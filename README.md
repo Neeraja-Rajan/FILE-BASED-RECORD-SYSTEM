@@ -1,6 +1,6 @@
 # FILE BASED RECORD SYSTEM
 It is created using **Python Tkinter**. 
-This software is a small concept of how we had store our records in file like txt, word rather than database.
+This software is a small concept of how we will store our records in file like txt, word rather than database. This helps if we are dealing with huge amount of data.
 
 ## Features of this project :
 **Login** in the system and once you **Login** get access of the all functions of the software  such as : 
